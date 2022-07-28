@@ -1,22 +1,31 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
         <title>All Posts - Chloe&#39;s Blog</title>
-        <link>https://chloeeice.github.io/posts/</link>
+        <link>http://example.org/posts/</link>
         <description>All Posts | Chloe&#39;s Blog</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Fri, 22 Jul 2022 16:13:05 &#43;0800</lastBuildDate><atom:link href="https://chloeeice.github.io/posts/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Thu, 28 Jul 2022 21:13:52 &#43;0800</lastBuildDate><atom:link href="http://example.org/posts/" rel="self" type="application/rss+xml" /><item>
+    <title>Binary_Tree_Traversal</title>
+    <link>http://example.org/binary_tree_traversal/</link>
+    <pubDate>Thu, 28 Jul 2022 21:13:52 &#43;0800</pubDate>
+    <author>Chloe</author>
+    <guid>http://example.org/binary_tree_traversal/</guid>
+    <description><![CDATA[1. Binary Tree Traversal - Preorder, Inorder and Postorder 1. Recursively recursively前中后序遍历代码几乎一样，只是顺序不同。
+LC 144: Binary Tree Preorder Traversal class Solution { public List&lt;Integer&gt; preorderTraversal(TreeNode root) { List&lt;Integer&gt; res = new ArrayList&lt;&gt;(); dfs(root, res); return res; } private void dfs(TreeNode root, List&lt;Integer&gt; list) { if (root == null) { return; } list.add(root.val); dfs(root.left, list); dfs(root.right, list); } } LC 94: Binary Tree Inorder Traversal class Solution { public List&lt;Integer&gt; inorderTraversal(TreeNode root) { List&lt;Integer&gt; res = new ArrayList&lt;&gt;(); dfs(root, res); return res; } private void dfs(TreeNode root, List&lt;Integer&gt; list) { if (root == null) { return; } dfs(root.]]></description>
+</item>
+<item>
     <title>Secondpost</title>
-    <link>https://chloeeice.github.io/secondpost/</link>
+    <link>http://example.org/secondpost/</link>
     <pubDate>Fri, 22 Jul 2022 16:13:05 &#43;0800</pubDate>
     <author>Chloe</author>
-    <guid>https://chloeeice.github.io/secondpost/</guid>
+    <guid>http://example.org/secondpost/</guid>
     <description><![CDATA[second post:test]]></description>
 </item>
 <item>
     <title>First_post</title>
-    <link>https://chloeeice.github.io/first_post/</link>
+    <link>http://example.org/first_post/</link>
     <pubDate>Fri, 22 Jul 2022 15:19:25 &#43;0800</pubDate>
     <author>Chloe</author>
-    <guid>https://chloeeice.github.io/first_post/</guid>
+    <guid>http://example.org/first_post/</guid>
     <description><![CDATA[first post]]></description>
 </item>
 </channel>
